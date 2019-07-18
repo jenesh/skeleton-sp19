@@ -51,4 +51,11 @@ public class Body {
         // double netForceY = forceY1 + forceY2;
         return forceY;
     }
+
+    Body[] allBodys = {this.Body, this};
+
+    public double calcNetForceExertedByX(Body b2) {
+        double forceX1 = calcForceExertedByX(this.)
+        return netForceX
+    }
 }
